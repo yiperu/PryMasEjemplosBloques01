@@ -14,5 +14,17 @@
 
 -(void)miMetodo:(MiBlooque3) complock;
 
+
+// Ejemplo N* 3:  Declaracion de un Bloque
+typedef void (^MiTipoBloque)(int);
+
+
+
+// -- - -  Declaracion de los Datos:
+@property (weak, nonatomic) IBOutlet UIImageView *imagenView;
+- (IBAction)btn1erPlano:(id)sender;
+- (IBAction)btn2doPlano:(id)sender;
+
+
 @end
 
